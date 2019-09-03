@@ -11,7 +11,7 @@ x_values = [a for a in range(11)]
 x_train = np.array(x_values, dtype=np.float32)
 x_train = x_train.reshape(-1, 1)
 
-y_values = [2*a+a for a in x_values]
+y_values = [1,-2,3,2,6,5,4,7,5,3,0]
 y_train = np.array(y_values, dtype=np.float32)
 y_train = y_train.reshape(-1, 1)
 
